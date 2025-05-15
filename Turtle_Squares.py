@@ -1,0 +1,31 @@
+from turtle import*
+penup()
+goto(-50,-50)
+pendown()
+pensize(2)
+begin_fill()
+for i in range(4):
+    color('black')
+    forward(200)
+    left(90)
+end_fill()
+begin_fill()
+for i in range(4):
+    color('white')
+    forward(150)
+    left(90)
+end_fill()
+begin_fill()
+for i in range(4):
+    color('lavender')
+    forward(100)
+    left(90)
+end_fill()
+begin_fill()
+for i in range(4):
+    color('black')
+    forward(50)
+    left(90)
+end_fill()
+hideturtle()
+exitonclick()
